@@ -11,7 +11,7 @@ document.getElementById('questionForm').addEventListener('submit', function(even
     const resultContainer = document.getElementById('resultContainer');
     resultContainer.classList.remove('result-hidden'); // Show the result container
 
-    fetch('http://localhost:3000/webhook', {
+    fetch('https://clumsy-cod-overshirt.cyclic.app/webhook', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
